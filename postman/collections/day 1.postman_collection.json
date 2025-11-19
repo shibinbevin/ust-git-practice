@@ -1,0 +1,219 @@
+{
+  "info": {
+    "_postman_id": "93d9dac3-0c77-4ff3-8955-0f3c951cbda6",
+    "name": "day 1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21988689"
+  },
+  "item": [
+    {
+      "name": "getdata",
+      "id": "12bd8687-55cd-428c-b68e-5ebb3c3c30ac",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "myrequest-header",
+            "value": "some value",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c169d41212",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c169d41212"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "post",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "d2928cc8-8658-47e5-8166-a53daa9774a6",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "id": "82d0b14f-c74d-446c-8780-58d3c5291d26",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"name\": \"{{my_variable}}\",\r\n   \"data\": {\r\n      \"year\": 2025,\r\n      \"price\": 1849.99,\r\n      \"CPU model\": \"Intel Core i9\",\r\n      \"Hard disk size\": \"1 TB\"\r\n   }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "update",
+      "id": "da8a8bcf-4143-467b-9096-bd8df0ce44ce",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"name\": \"Apple MacBook Pro\",\r\n   \"data\": {\r\n      \"year\": 2023,\r\n      \"price\": 1849.99,\r\n      \"CPU model\": \"Intel Core i9\",\r\n      \"Hard disk size\": \"1 TB\"\r\n   }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c169d41212",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c169d41212"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete",
+      "id": "6144c415-d330-4547-bda6-3d9f54051f22",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a95c169d41212",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff8081819782e69e019a95c169d41212"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "send_request",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "1107b9ea-5d40-4236-b0ca-7cbe58321f12",
+            "exec": [
+              "try {\r",
+              "    const response = await pm.sendRequest({\r",
+              "        url: \"https://postman-echo.com/get\",\r",
+              "        method: \"GET\"\r",
+              "    });\r",
+              "\r",
+              "    console.log(response.json());\r",
+              "} catch (err) {\r",
+              "    console.error(err);\r",
+              "}"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "acac715c-5147-4d14-8352-774230ef6de9",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "id": "c49b6dc8-bf0e-4eda-89e5-9af94f5476ec",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "info": {
+    "_postman_id": "7f692514-0901-481a-b0bc-5217e7366350",
+    "name": "scripts",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "postscript",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "try {\r",
+              "    const response = await pm.sendRequest({\r",
+              "        url: \"https://postman-echo.com/post\",\r",
+              "        method: \"POST\"\r",
+              "    });\r",
+              "\r",
+              "    console.log(response.json());\r",
+              "} catch (err) {\r",
+              "    console.error(err);\r",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "https://postman-echo.com/post",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "post"
+          ]
+        }
+      }
+    },
+    {
+      "name": "putscript",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "try {\r",
+              "    const response = await pm.sendRequest({\r",
+              "        url: \"https://postman-echo.com/put\",\r",
+              "        method: \"PUT\"\r",
+              "    });\r",
+              "\r",
+              "    console.log(response.json());\r",
+              "} catch (err) {\r",
+              "    console.error(err);\r",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "https://postman-echo.com/put",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "put"
+          ]
+        }
+      }
+    },
+    {
+      "name": "getscript",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              "try {\r",
+              "    const response = await pm.sendRequest({\r",
+              "        url: \"https://postman-echo.com/get\",\r",
+              "        method: \"GET\"\r",
+              "    });\r",
+              "\r",
+              "    console.log(response.json());\r",
+              "} catch (err) {\r",
+              "    console.error(err);\r",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://postman-echo.com/get",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "info": {
+    "_postman_id": "47598420-5e35-420a-8c0f-f0dd4e31aca6",
+    "name": "day 4",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "xpath_visualize",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// Visualization Script",
+              "// Visualization Script",
+              "// Visualize counts from http://httpbin.org/xml (an Atom-like XML of slides)",
+              "// Parses XML, counts elements, and charts them with Chart.js",
+              "",
+              "const template = `",
+              "<div style=\"font-family: Arial, sans-serif; margin: 8px 0;\">",
+              "  <h3 style=\"margin: 0 0 8px;\">XML Element Counts</h3>",
+              "  <p style=\"margin: 0 0 12px; color: #555;\">Counts derived from the XML response of http://httpbin.org/xml</p>",
+              "  <div style=\"display:flex; gap: 16px; flex-wrap: wrap; align-items: flex-start;\">",
+              "    <div style=\"flex: 1 1 320px; min-width: 320px;\">",
+              "      <canvas id=\"countsChart\" height=\"120\"></canvas>",
+              "    </div>",
+              "    <div style=\"flex: 1 1 260px; min-width: 260px;\">",
+              "      <table style=\"border-collapse: collapse; width: 100%; font-size: 12px;\">",
+              "        <thead>",
+              "          <tr>",
+              "            <th style=\"text-align:left; border-bottom: 1px solid #ddd; padding: 6px;\">Element</th>",
+              "            <th style=\"text-align:right; border-bottom: 1px solid #ddd; padding: 6px;\">Count</th>",
+              "          </tr>",
+              "        </thead>",
+              "        <tbody>",
+              "          {{#each rows}}",
+              "            <tr>",
+              "              <td style=\"border-bottom: 1px solid #f0f0f0; padding: 6px;\">{{label}}</td>",
+              "              <td style=\"border-bottom: 1px solid #f0f0f0; padding: 6px; text-align: right;\">{{count}}</td>",
+              "            </tr>",
+              "          {{/each}}",
+              "        </tbody>",
+              "      </table>",
+              "    </div>",
+              "  </div>",
+              "</div>",
+              "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js\"></script>",
+              "<script>",
+              "  (function() {",
+              "    var ctx = document.getElementById('countsChart');",
+              "    var chart = new Chart(ctx, {",
+              "      type: 'bar',",
+              "      data: {",
+              "        labels: [],",
+              "        datasets: [{",
+              "          label: 'Count',",
+              "          data: [],",
+              "          backgroundColor: 'rgba(54, 162, 235, 0.5)',",
+              "          borderColor: 'rgba(54, 162, 235, 1)',",
+              "          borderWidth: 1",
+              "        }]",
+              "      },",
+              "      options: {",
+              "        responsive: true,",
+              "        maintainAspectRatio: false,",
+              "        legend: { display: false },",
+              "        title: { display: true, text: 'Counts by Element' },",
+              "        scales: {",
+              "          xAxes: [{",
+              "            gridLines: { display: false },",
+              "            ticks: { autoSkip: false }",
+              "          }],",
+              "          yAxes: [{",
+              "            ticks: { beginAtZero: true, precision: 0 }",
+              "          }]",
+              "        }",
+              "      }",
+              "    });",
+              "",
+              "    pm.getData(function (err, data) {",
+              "      if (err || !data) { return; }",
+              "      var labels = (data.rows || []).map(function(r){ return r.label; });",
+              "      var values = (data.rows || []).map(function(r){ return r.count; });",
+              "      chart.data.labels = labels;",
+              "      chart.data.datasets[0].data = values;",
+              "      chart.update();",
+              "    });",
+              "  })();",
+              "</script>",
+              "`;",
+              "",
+              "function createPayload() {",
+              "  // Parse XML safely and compute counts",
+              "  var body = pm.response.text();",
+              "  var json = xml2Json(body);",
+              "  // httpbin xml structure is: slideshow -> slide[] with title, type, item[]",
+              "  var slideshow = (json || {}).slideshow || {};",
+              "  var slides = Array.isArray(slideshow.slide) ? slideshow.slide : (slideshow.slide ? [slideshow.slide] : []);",
+              "",
+              "  var counts = {",
+              "    slides: slides.length,",
+              "    items: 0,",
+              "    titles: 0,",
+              "    uniqueTypes: 0",
+              "  };",
+              "",
+              "  var typeSet = {};",
+              "  slides.forEach(function(slide){",
+              "    if (!slide) return;",
+              "    if (slide.title) counts.titles += 1;",
+              "    var items = Array.isArray(slide.item) ? slide.item : (slide.item ? [slide.item] : []);",
+              "    counts.items += items.length;",
+              "    if (slide.type) {",
+              "      var t = (slide.type + '').trim();",
+              "      if (t) typeSet[t] = true;",
+              "    }",
+              "  });",
+              "  counts.uniqueTypes = Object.keys(typeSet).length;",
+              "",
+              "  var rows = [",
+              "    { label: 'Slides', count: counts.slides },",
+              "    { label: 'Slide Titles', count: counts.titles },",
+              "    { label: 'Items (Bullets)', count: counts.items },",
+              "    { label: 'Unique Slide Types', count: counts.uniqueTypes }",
+              "  ];",
+              "",
+              "  return { rows: rows };",
+              "}",
+              "",
+              "pm.visualizer.set(template, createPayload());"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://httpbin.org/xml",
+          "protocol": "http",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "xml"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+https://api.restful-api.dev/objects
+https://api.restful-api.dev/objects/<id> + GET
+https://api.restful-api.dev/objects/<id> + PUT
+
+https://api.restful-api.dev/accoutnts + POST create
+https://api.restful-api.dev/accounts/<ID> + DELETE delete
+https://api.restful-api.dev/accounts/<ID> + PU update
+https://api.restful-api.dev/accounts + GET all records
+https://api.restful-api.dev/accounts/<ID> + GET 0(404) or 1(200) record

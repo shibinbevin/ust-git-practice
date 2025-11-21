@@ -1,0 +1,3 @@
+jmeter -n -t "Get Request.jmx"
+jmeter -n -t "Get Request.jmx" -l "report.jtl"
+jmeter -n -t "Get Request.jmx" -l "report.jtl" -e -o reports

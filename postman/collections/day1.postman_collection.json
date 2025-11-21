@@ -1,14 +1,17 @@
 {
   "info": {
     "_postman_id": "c0b0b2e9-9b9b-4083-86e7-b03df2753af7",
-    "name": "day 1",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "name": "day1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21988689"
   },
   "item": [
     {
       "name": "get_request",
+      "id": "372c8714-fd67-482f-bed5-45ff1a0411c4",
       "request": {
         "method": "GET",
+        "header": [],
         "url": {
           "raw": "https://api.restful-api.dev/objects",
           "protocol": "https",
@@ -21,12 +24,15 @@
             "objects"
           ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "put_request",
+      "id": "38fcfe71-7e2e-4f96-907e-7731e13a523a",
       "request": {
         "method": "PUT",
+        "header": [],
         "body": {
           "mode": "raw",
           "raw": "{\r\n        \"name\": \"Google Pixel 9a\",\r\n        \"data\": {\r\n            \"color\": \"Cloudy White\",\r\n            \"capacity\": \"128 GB\"\r\n        }\r\n    }",
@@ -37,7 +43,7 @@
           }
         },
         "url": {
-          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a9aebe8c81fb8",
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019aa4bfe5724498",
           "protocol": "https",
           "host": [
             "api",
@@ -46,15 +52,18 @@
           ],
           "path": [
             "objects",
-            "ff8081819782e69e019a9aebe8c81fb8"
+            "ff8081819782e69e019aa4bfe5724498"
           ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "post_request",
+      "id": "f27f1532-836a-4023-b846-b75b01bc8937",
       "request": {
         "method": "POST",
+        "header": [],
         "body": {
           "mode": "raw",
           "raw": "{\r\n        \"name\": \"Google Pixel\",\r\n        \"data\": {\r\n            \"color\": \"Cloudy White\",\r\n            \"capacity\": \"128 GB\"\r\n        }\r\n    }",
@@ -76,21 +85,24 @@
             "objects"
           ]
         }
-      }
+      },
+      "response": []
     },
     {
       "name": "delete_request",
+      "id": "8eed626b-5064-44c6-b01c-bc66fc2fabc7",
       "request": {
         "auth": {
           "type": "noauth"
         },
         "method": "DELETE",
+        "header": [],
         "body": {
           "mode": "raw",
           "raw": "{\r\n   \"name\": \"{{my_variable}}\",\r\n   \"data\": {\r\n      \"year\": 2025,\r\n      \"price\": 1849.99,\r\n      \"CPU model\": \"Intel Core i9\",\r\n      \"Hard disk size\": \"1 TB\"\r\n   }\r\n}"
         },
         "url": {
-          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019a9aebe8c81fb8",
+          "raw": "https://api.restful-api.dev/objects/ff8081819782e69e019aa4bfe5724498",
           "protocol": "https",
           "host": [
             "api",
@@ -99,10 +111,11 @@
           ],
           "path": [
             "objects",
-            "ff8081819782e69e019a9aebe8c81fb8"
+            "ff8081819782e69e019aa4bfe5724498"
           ]
         }
-      }
+      },
+      "response": []
     }
   ]
 }

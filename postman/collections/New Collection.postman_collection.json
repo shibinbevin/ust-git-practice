@@ -1,17 +1,58 @@
 {
   "info": {
-    "_postman_id": "89132d22-fdac-488d-a620-61a4a450c304",
-    "name": "day 2",
+    "_postman_id": "fbd2f502-3944-43a8-80c6-92bd39ec8d66",
+    "name": "day5",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
-      "name": "post",
+      "name": "login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "9329807b-5354-47f2-9c6a-2b0488bbecb9",
+            "exec": [
+              "pm.test(\"Status code is 2xx for successful login\", function () {",
+              "    if (pm.response.code >= 200 && pm.response.code < 300) {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData).to.have.property(\"access_token\");",
+              "",
+              "    pm.expect(jsonData.message.toLowerCase()).to.include(\"unauthorized\");",
+              "    }",
+              "})",
+              "pm.test(\"Unauthorised returns 401\", function () {",
+              "    if (pm.response.code === 401) {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData).to.have.property(\"message\");",
+              "",
+              "    pm.expect(jsonData.message.toLowerCase()).to.include(\"unauthorized\");",
+              "    }",
+              "})",
+              "pm.test(\"Handle common error codes\", function () {",
+              "    pm.expect([200, 201, 400, 401, 403, 404, 500]).to.include(pm.response.code);",
+              "})"
+            ],
+            "type": "text/javascript"
+          }
+        },
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "3fb0ede5-5c8d-4a1e-a32f-05562c4b2340",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "45f197db-ea12-4082-99b9-0346a11b1608",
       "request": {
         "method": "POST",
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"name\": \"shibin\"\r\n}",
+          "raw": "",
           "options": {
             "raw": {
               "language": "json"
@@ -19,14 +60,18 @@
           }
         },
         "url": {
-          "raw": "https://postman-echo.com/post",
+          "raw": "https://api.escuelajs.co/api/v1/auth/login",
           "protocol": "https",
           "host": [
-            "postman-echo",
-            "com"
+            "api",
+            "escuelajs",
+            "co"
           ],
           "path": [
-            "post"
+            "api",
+            "v1",
+            "auth",
+            "login"
           ]
         }
       }

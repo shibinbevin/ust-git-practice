@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "41d9d61a-31da-4448-90c3-d8ab7eee33b8",
-    "name": "day 3",
+    "name": "day3",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -11,6 +11,7 @@
         {
           "listen": "prerequest",
           "script": {
+            "id": "3d9fe6cc-c0cf-4eb6-b6f1-eeec492adbc6",
             "exec": [
               ""
             ],
@@ -20,20 +21,24 @@
         {
           "listen": "test",
           "script": {
+            "id": "f6a1f307-13ea-410b-8948-3d10e4fc490e",
             "exec": [
               "pm.test(\"Content-Type is present\", function () {\r",
               "    pm.response.to.have.header(\"Content-Type\");\r",
+              "    const myvar = pm.environment.get(\"myvar\");\r",
+              "    console.log(\"hello\" + myvar);\r",
               "});"
             ],
             "type": "text/javascript"
           }
         }
       ],
+      "id": "c8d2f7e0-006f-4050-bfe6-b2c6fbbc64c5",
       "request": {
         "method": "POST",
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"city\": \"{{city}}\"\r\n}",
+          "raw": "",
           "options": {
             "raw": {
               "language": "json"

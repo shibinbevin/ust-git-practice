@@ -3,7 +3,13 @@
     "id": "b3e2e69e-4756-4ca6-8f99-861adec9af46"
   },
   "entities": {
-    "collections": [],
+    "collections": [
+      "..\\postman\\collections\\day4.postman_collection.json",
+      "..\\postman\\collections\\day3.postman_collection.json",
+      "..\\postman\\collections\\scripts.postman_collection.json",
+      "..\\postman\\collections\\day2.postman_collection.json",
+      "..\\postman\\collections\\day1.postman_collection.json"
+    ],
     "environments": [],
     "specs": [],
     "flows": [],

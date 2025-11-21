@@ -1,8 +1,9 @@
 {
   "info": {
     "_postman_id": "47598420-5e35-420a-8c0f-f0dd4e31aca6",
-    "name": "day 4",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "name": "day4",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21988689"
   },
   "item": [
     {
@@ -143,8 +144,10 @@
           }
         }
       ],
+      "id": "c3ae37b1-aec5-409c-8ecd-d6c0aa19968b",
       "request": {
         "method": "GET",
+        "header": [],
         "url": {
           "raw": "http://httpbin.org/xml",
           "protocol": "http",
@@ -156,7 +159,8 @@
             "xml"
           ]
         }
-      }
+      },
+      "response": []
     }
   ]
 }

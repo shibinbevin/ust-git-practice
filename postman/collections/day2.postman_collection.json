@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "89132d22-fdac-488d-a620-61a4a450c304",
+    "name": "day2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21988689"
+  },
+  "item": [
+    {
+      "name": "post",
+      "id": "7bc8f655-4951-4fcb-a55c-2dc82fdf0782",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"shibin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://postman-echo.com/post",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "post"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

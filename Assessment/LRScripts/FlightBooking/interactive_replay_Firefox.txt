@@ -1,0 +1,41 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at : 2025-12-04 11:48:08
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 11:48:05 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003429ms: ** 1: Navigate to "http://localhost:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003922ms: ** 1: Navigate to http://localhost:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00004435ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004714ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005227ms: ** 3: Type shibin in Username textbox ** started    [MsgId: MMSG-205180]
+t=00007642ms: ** 3: Type shibin in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008157ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00008422ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008931ms: ** 5: Type ********* in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012361ms: ** 5: Type ********* in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012887ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00013537ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00014051ms: ** 7: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00014717ms: ** 7: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00015230ms: ** 8: Select Frankfurt from Arrival City  listbox ** started    [MsgId: MMSG-205180]
+t=00015310ms: ** 8: Select Frankfurt from Arrival City  listbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00015820ms: ** 9: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00016441ms: ** 9: Click on findFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00016968ms: ** 10: Click on reserveFlights button ** started    [MsgId: MMSG-205180]
+t=00017573ms: ** 10: Click on reserveFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00018088ms: ** 11: Click on Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00018353ms: ** 11: Click on Credit Card  textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018867ms: ** 12: Type 123 in Credit Card  textbox ** started    [MsgId: MMSG-205180]
+t=00019986ms: ** 12: Type 123 in Credit Card  textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020501ms: ** 13: Click on Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00020767ms: ** 13: Click on Exp Date  textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021276ms: ** 14: Type 11/11 in Exp Date  textbox ** started    [MsgId: MMSG-205180]
+t=00023680ms: ** 14: Type 11/11 in Exp Date  textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00024206ms: ** 15: Click on buyFlights button ** started    [MsgId: MMSG-205180]
+t=00024811ms: ** 15: Click on buyFlights button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00024820ms: ** 16: Verify  Thank you for booking...'s "Visible Text" Contain Thank you for booking through Web Tours. ** started    [MsgId: MMSG-205180]
+t=00025078ms: ** 16: Verify  Thank you for booking...'s "Visible Text" Contain Thank you for booking through Web Tours. ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

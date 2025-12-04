@@ -1,0 +1,103 @@
+28 11 1764841506 2 193255496 1925090356 1699564
+28 4 LoginFailure 1 1764841507 0 LoginFailure localhost 0 1
+28 10 localhost 28 0 0
+28 4 LoginFailure 2 1764841507 0 LoginFailure localhost 0 1
+28 4 LoginFailure 3 1764841507 0 LoginFailure localhost 0 1
+28 4 LoginFailure 4 1764841507 0 LoginFailure localhost 0 1
+28 4 LoginFailure 5 1764841507 0 LoginFailure localhost 0 1
+28 0 LoginFailure 1 1764841511 0 localhost 0
+28 8 LoginFailure 1  0 0
+28 0 LoginFailure 2 1764841511 0 localhost 0
+28 8 LoginFailure 2  0 0
+28 2 LoginFailure 1 1764841511 0 p 0 0
+28 2 LoginFailure 2 1764841511 0 p 0 0
+28 0 LoginFailure 4 1764841511 0 localhost 0
+28 8 LoginFailure 4  0 0
+28 0 LoginFailure 5 1764841511 0 localhost 0
+28 8 LoginFailure 5  0 0
+28 2 LoginFailure 4 1764841511 0 p 0 0
+28 2 LoginFailure 5 1764841511 0 p 0 0
+28 4 LoginFailure 6 1764841511 0 LoginFailure localhost 0 1
+28 4 LoginFailure 7 1764841511 0 LoginFailure localhost 0 1
+28 4 LoginFailure 8 1764841512 0 LoginFailure localhost 0 1
+28 4 LoginFailure 9 1764841512 0 LoginFailure localhost 0 1
+28 4 LoginFailure 10 1764841512 0 LoginFailure localhost 0 1
+28 0 LoginFailure 3 1764841512 0 localhost 0
+28 8 LoginFailure 3  0 0
+28 2 LoginFailure 3 1764841512 0 p 0 0
+28 0 LoginFailure 9 1764841515 0 localhost 0
+28 8 LoginFailure 9  0 0
+28 0 LoginFailure 8 1764841515 0 localhost 0
+28 8 LoginFailure 8  0 0
+28 0 LoginFailure 6 1764841515 0 localhost 0
+28 8 LoginFailure 6  0 0
+28 2 LoginFailure 6 1764841515 0 p 0 0
+28 2 LoginFailure 8 1764841515 0 p 0 0
+28 2 LoginFailure 9 1764841515 0 p 0 0
+28 0 LoginFailure 7 1764841516 0 localhost 0
+28 8 LoginFailure 7  0 0
+28 2 LoginFailure 7 1764841516 0 p 0 0
+28 4 LoginFailure 11 1764841517 0 LoginFailure localhost 0 1
+28 4 LoginFailure 12 1764841517 0 LoginFailure localhost 0 1
+28 4 LoginFailure 13 1764841517 0 LoginFailure localhost 0 1
+28 4 LoginFailure 14 1764841517 0 LoginFailure localhost 0 1
+28 4 LoginFailure 15 1764841517 0 LoginFailure localhost 0 1
+28 0 LoginFailure 10 1764841519 0 localhost 0
+28 8 LoginFailure 10  0 0
+28 2 LoginFailure 10 1764841520 0 p 0 0
+28 0 LoginFailure 12 1764841520 0 localhost 0
+28 8 LoginFailure 12  0 0
+28 0 LoginFailure 15 1764841520 0 localhost 0
+28 8 LoginFailure 15  0 0
+28 2 LoginFailure 12 1764841520 0 p 0 0
+28 0 LoginFailure 14 1764841520 0 localhost 0
+28 8 LoginFailure 14  0 0
+28 2 LoginFailure 14 1764841520 0 p 0 0
+28 2 LoginFailure 15 1764841520 0 p 0 0
+28 4 LoginFailure 16 1764841522 0 LoginFailure localhost 0 1
+28 4 LoginFailure 17 1764841522 0 LoginFailure localhost 0 1
+28 4 LoginFailure 18 1764841522 0 LoginFailure localhost 0 1
+28 4 LoginFailure 19 1764841522 0 LoginFailure localhost 0 1
+28 4 LoginFailure 20 1764841522 0 LoginFailure localhost 0 1
+28 0 LoginFailure 11 1764841523 0 localhost 0
+28 8 LoginFailure 11  0 0
+28 0 LoginFailure 13 1764841523 0 localhost 0
+28 8 LoginFailure 13  0 0
+28 2 LoginFailure 11 1764841523 0 p 0 0
+28 2 LoginFailure 13 1764841523 0 p 0 0
+28 0 LoginFailure 16 1764841527 0 localhost 0
+28 8 LoginFailure 16  0 0
+28 2 LoginFailure 16 1764841527 0 p 0 0
+28 0 LoginFailure 19 1764841527 0 localhost 0
+28 8 LoginFailure 19  0 0
+28 0 LoginFailure 18 1764841527 0 localhost 0
+28 8 LoginFailure 18  0 0
+28 2 LoginFailure 19 1764841527 0 p 0 0
+28 2 LoginFailure 18 1764841527 0 p 0 0
+28 0 LoginFailure 20 1764841529 0 localhost 0
+28 8 LoginFailure 20  0 0
+28 2 LoginFailure 20 1764841529 0 p 0 0
+28 0 LoginFailure 17 1764841530 0 localhost 0
+28 8 LoginFailure 17  0 0
+28 2 LoginFailure 17 1764841530 0 p 0 0
+28 1 LoginFailure 6 1764841582 0 2
+28 1 LoginFailure 2 1764841582 0 2
+28 1 LoginFailure 7 1764841583 0 2
+28 1 LoginFailure 5 1764841584 0 2
+28 1 LoginFailure 3 1764841584 0 2
+28 1 LoginFailure 8 1764841585 0 2
+28 1 LoginFailure 9 1764841586 0 2
+28 1 LoginFailure 17 1764841587 0 2
+28 1 LoginFailure 11 1764841587 0 2
+28 1 LoginFailure 13 1764841589 0 2
+28 1 LoginFailure 14 1764841590 0 2
+28 1 LoginFailure 12 1764841590 0 2
+28 1 LoginFailure 1 1764841590 0 2
+28 1 LoginFailure 10 1764841591 0 2
+28 1 LoginFailure 4 1764841591 0 2
+28 1 LoginFailure 19 1764841593 0 2
+28 1 LoginFailure 18 1764841594 0 2
+28 1 LoginFailure 16 1764841595 0 2
+28 1 LoginFailure 20 1764841595 0 2
+28 1 LoginFailure 15 1764841596 0 2
+28 12 1764841596 1 1764841596 0 1764841596

@@ -1,0 +1,23 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at : 2025-12-04 12:13:02
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 12:13:00 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003392ms: ** 1: Navigate to "http://localhost:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003928ms: ** 1: Navigate to http://localhost:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00004448ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004728ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005238ms: ** 3: Type TC.getParam("username") in Username textbox ** started    [MsgId: MMSG-205180]
+t=00007677ms: ** 3: Type shibin in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008199ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00008461ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008974ms: ** 5: Type ****************... in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012440ms: ** 5: Type ********* in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012950ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00013600ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00013609ms: ** 7: Verify  Welcome, shibin, to the...'s "Visible Text" Contain Welcome, shibin, to the ...hen you're done! ** started    [MsgId: MMSG-205180]
+t=00013866ms: ** 7: Verify  Welcome, shibin, to the...'s "Visible Text" Contain Welcome, shibin, to the ...hen you're done! ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

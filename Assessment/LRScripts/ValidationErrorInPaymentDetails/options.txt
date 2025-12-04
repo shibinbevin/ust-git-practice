@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\WebTours\ValidationErrorInPaymentDetails
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\webtours\validationerrorinpaymentdetails\\logfile.log
+c:\users\administrator\documents\vugen\scripts\webtours\validationerrorinpaymentdetails\\combined_ValidationErrorInPaymentDetails.c
+c:\users\administrator\documents\vugen\scripts\webtours\validationerrorinpaymentdetails\\pre_cci.c

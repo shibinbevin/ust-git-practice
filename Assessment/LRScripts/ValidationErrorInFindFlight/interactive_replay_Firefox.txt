@@ -1,0 +1,33 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at : 2025-12-04 11:17:43
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 11:17:40 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003316ms: ** 1: Navigate to "http://localhost:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003765ms: ** 1: Navigate to http://localhost:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00003860ms: ** 2: form (1) ** started    [MsgId: MMSG-205180]
+t=00004370ms: ** 2.1: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004638ms: ** 2.1: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005151ms: ** 2.2: Type shibin in Username textbox ** started    [MsgId: MMSG-205180]
+t=00007000ms: ** 2.2: Type shibin in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007511ms: ** 2.3: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00007773ms: ** 2.3: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008288ms: ** 2.4: Type ********* in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00011173ms: ** 2.4: Type ********* in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00011688ms: ** 2.5: Press Enter key on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012335ms: ** 2.5: Press Enter key on Password passwordbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00012341ms: ** 2: form (1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012851ms: ** 3: Click on Search Flights Button image ** started    [MsgId: MMSG-205180]
+t=00013515ms: ** 3: Click on Search Flights Button image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00014026ms: ** 4: Click on findFlights button ** started    [MsgId: MMSG-205180]
+t=00014090ms: Dialog-Alert: Departure and arrival cities must be different.
+    [MsgId: MMSG-205180]
+t=00014302ms: ** 4: Click on findFlights button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00014826ms: ** 5: Press OK in alert dialog ** started    [MsgId: MMSG-205180]
+t=00015179ms: ** 5: Press OK in alert dialog ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00015188ms: ** 6: Verify  Find Flight's "Visible Text" Contain Find Flight ** started    [MsgId: MMSG-205180]
+t=00015446ms: ** 6: Verify  Find Flight's "Visible Text" Contain Find Flight ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\Administrator\Documents\VuGen\Scripts\WebTours\ValidationErrorInPaymentDetails\res\localhost_5.eve

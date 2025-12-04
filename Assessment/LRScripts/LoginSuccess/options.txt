@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\WebTours\LoginSuccess
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\webtours\loginsuccess\\logfile.log
+c:\users\administrator\documents\vugen\scripts\webtours\loginsuccess\\combined_LoginSuccess.c
+c:\users\administrator\documents\vugen\scripts\webtours\loginsuccess\\pre_cci.c

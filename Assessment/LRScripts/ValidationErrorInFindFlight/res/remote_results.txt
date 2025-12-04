@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\Administrator\Documents\VuGen\Scripts\WebTours\ValidationErrorInFindFlight\res\localhost_23.eve

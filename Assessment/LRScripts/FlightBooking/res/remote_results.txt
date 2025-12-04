@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\Administrator\Documents\VuGen\Scripts\WebTours\FlightBooking\res\localhost_1.eve

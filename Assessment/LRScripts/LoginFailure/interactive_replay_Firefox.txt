@@ -1,0 +1,23 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at : 2025-12-04 10:37:33
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 10, Browser: Firefox, initialized on 2025/12/04 at 10:37:30 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+t=00003358ms: ** 1: Navigate to "http://localhost:1080/webtours/" ** started    [MsgId: MMSG-205180]
+t=00003632ms: ** 1: Navigate to http://localhost:1080/webtours/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00004156ms: ** 2: Click on Username textbox ** started    [MsgId: MMSG-205180]
+t=00004569ms: ** 2: Click on Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005089ms: ** 3: Type shibin in Username textbox ** started    [MsgId: MMSG-205180]
+t=00007181ms: ** 3: Type shibin in Username textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00007704ms: ** 4: Click on Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00008096ms: ** 4: Click on Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008608ms: ** 5: Type ********** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00012604ms: ** 5: Type ********** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00013130ms: ** 6: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00013554ms: ** 6: Click on Login button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00013567ms: ** 7: Verify  Web Tours Error   Incorrect...'s "Visible Text" Contain Web Tours Error - Incorrect Password ** started    [MsgId: MMSG-205180]
+t=00013812ms: ** 7: Verify  Web Tours Error   Incorrect...'s "Visible Text" Contain Web Tours Error - Incorrect Password ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

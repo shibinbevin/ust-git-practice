@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("4B302D4D-F39E-4D51-9B33-4617924F3839") = "LoginSuccess", "LoginSuccess\LoginSuccess.usr", "4B302D4D-F39E-4D51-9B33-4617924F3839"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViVG91cnNcTG9naW5TdWNjZXNzXExvZ2luU3VjY2Vzcy51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNcQWRtaW5pc3RyYXRvclxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xXZWJUb3Vyc1xMb2dpblN1Y2Nlc3NcTG9naW5TdWNjZXNzLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjUtMTItMDRUMTA6MzU6MTkuNDY1ODI1NyswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("2F9E5BBC-C995-448B-B785-642E8357DE5A") = "LoginFailure", "LoginFailure\LoginFailure.usr", "2F9E5BBC-C995-448B-B785-642E8357DE5A"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViVG91cnNcTG9naW5GYWlsdXJlXExvZ2luRmFpbHVyZS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNcQWRtaW5pc3RyYXRvclxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xXZWJUb3Vyc1xMb2dpbkZhaWx1cmVcTG9naW5GYWlsdXJlLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjUtMTItMDRUMTA6MzY6MTQuNTc4ODMyMiswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("F992EC4B-0B83-4632-95C0-81A8F163459D") = "FlightBooking", "FlightBooking\FlightBooking.usr", "F992EC4B-0B83-4632-95C0-81A8F163459D"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViVG91cnNcRmxpZ2h0Qm9va2luZ1xGbGlnaHRCb29raW5nLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFdlYlRvdXJzXEZsaWdodEJvb2tpbmdcRmxpZ2h0Qm9va2luZy51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI1LTEyLTA0VDEwOjQyOjI0LjcxOTM2MTErMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("C330854A-9E40-4864-A471-DEE5F6AFDCB9") = "ValidationErrorInFindFlight", "ValidationErrorInFindFlight\ValidationErrorInFindFlight.usr", "C330854A-9E40-4864-A471-DEE5F6AFDCB9"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViVG91cnNcVmFsaWRhdGlvbkVycm9ySW5GaW5kRmxpZ2h0XFZhbGlkYXRpb25FcnJvckluRmluZEZsaWdodC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNcQWRtaW5pc3RyYXRvclxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xXZWJUb3Vyc1xWYWxpZGF0aW9uRXJyb3JJbkZpbmRGbGlnaHRcVmFsaWRhdGlvbkVycm9ySW5GaW5kRmxpZ2h0LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjUtMTItMDRUMTE6MDY6MjAuNDM4MzI2MSswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("23C5924F-D826-49C1-BA2E-9AE06CD2F549") = "ValidationErrorInPaymentDetails", "ValidationErrorInPaymentDetails\ValidationErrorInPaymentDetails.usr", "23C5924F-D826-49C1-BA2E-9AE06CD2F549"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViVG91cnNcVmFsaWRhdGlvbkVycm9ySW5QYXltZW50RGV0YWlsc1xWYWxpZGF0aW9uRXJyb3JJblBheW1lbnREZXRhaWxzLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERvY3VtZW50c1xWdUdlblxTY3JpcHRzXFdlYlRvdXJzXFZhbGlkYXRpb25FcnJvckluUGF5bWVudERldGFpbHNcVmFsaWRhdGlvbkVycm9ySW5QYXltZW50RGV0YWlscy51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI1LTEyLTA0VDExOjEzOjUwLjY5NzU4OTUrMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		4B302D4D-F39E-4D51-9B33-4617924F3839.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4B302D4D-F39E-4D51-9B33-4617924F3839.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4B302D4D-F39E-4D51-9B33-4617924F3839.Release|Any CPU.Build.0 = Release|Any CPU
+		4B302D4D-F39E-4D51-9B33-4617924F3839.Release|Any CPU.ActiveCfg = Release|Any CPU
+		2F9E5BBC-C995-448B-B785-642E8357DE5A.Debug|Any CPU.Build.0 = Debug|Any CPU
+		2F9E5BBC-C995-448B-B785-642E8357DE5A.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		2F9E5BBC-C995-448B-B785-642E8357DE5A.Release|Any CPU.Build.0 = Release|Any CPU
+		2F9E5BBC-C995-448B-B785-642E8357DE5A.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F992EC4B-0B83-4632-95C0-81A8F163459D.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F992EC4B-0B83-4632-95C0-81A8F163459D.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F992EC4B-0B83-4632-95C0-81A8F163459D.Release|Any CPU.Build.0 = Release|Any CPU
+		F992EC4B-0B83-4632-95C0-81A8F163459D.Release|Any CPU.ActiveCfg = Release|Any CPU
+		C330854A-9E40-4864-A471-DEE5F6AFDCB9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		C330854A-9E40-4864-A471-DEE5F6AFDCB9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		C330854A-9E40-4864-A471-DEE5F6AFDCB9.Release|Any CPU.Build.0 = Release|Any CPU
+		C330854A-9E40-4864-A471-DEE5F6AFDCB9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		23C5924F-D826-49C1-BA2E-9AE06CD2F549.Debug|Any CPU.Build.0 = Debug|Any CPU
+		23C5924F-D826-49C1-BA2E-9AE06CD2F549.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		23C5924F-D826-49C1-BA2E-9AE06CD2F549.Release|Any CPU.Build.0 = Release|Any CPU
+		23C5924F-D826-49C1-BA2E-9AE06CD2F549.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
